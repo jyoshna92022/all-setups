@@ -28,7 +28,7 @@ Restart=on-abort
 
 [Install]
 WantedBy=multi-user.target
-<< EOL
+EOL
 sudo chkconfig nexus on
 sudo systemctl start nexus
 sudo systemctl status nexus
